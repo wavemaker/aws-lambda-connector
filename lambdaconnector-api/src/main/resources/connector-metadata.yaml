@@ -1,0 +1,4 @@
+version: "1.0"
+name: "lambda"
+description: "This connector provides apis to invoke AWS lambda function"
+springConfigurationClass: "com.wavemaker.connector.configuration.AWSLambdaConnectorConfiguration"
