@@ -4,7 +4,7 @@ import com.amazonaws.services.lambda.model.InvokeRequest;
 import com.wavemaker.runtime.connector.annotation.WMConnector;
 
 
-@WMConnector(name = "lambda",
+@WMConnector(name = "aws-lambda-connector",
         description = "This connector provides apis to invoke AWS lambda function")
 public interface AWSLambdaConnector {
 
